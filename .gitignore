@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Parcel buffer directory
+.parcel-cache
+
+# Production build output
+dist/
+build/
+
+# Serverless Webpack directories
+.webpack/
+
+# Service Worker / Workbox directory
+.workbox/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local tools and Node.js binary files
+tools/
+.gemini/
+antigravity-ide/
+
+# System Files
+.DS_Store
+Thumbs.db
